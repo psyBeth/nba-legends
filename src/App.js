@@ -3,7 +3,7 @@ import { Container } from "react-bootstrap";
 
 function App() {
     return (
-      <Container>
+      <Container className="text-center mt-4">
         <Header />
       </Container>
     );
