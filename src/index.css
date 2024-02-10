@@ -10,7 +10,7 @@ body {
 }
 
 /*! Player Card / Component Styling */
-.card.container {
+.card-container {
     background-image: url("https://p4.wallpaperbetter.com/wallpaper/661/973/110/cool-nba-logo-wallpaper-preview.jpg");
     min-width: 300px;
     min-height: 432px;
@@ -27,6 +27,7 @@ body {
 
 .player-logo{
     height: 350px;
+    object-fit: cover;
     transition: transform 0.2s;
 }
 
