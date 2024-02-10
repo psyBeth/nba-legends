@@ -1,7 +1,9 @@
-import { Card } from "react-bootstrap"
+import { useState } from "react";
+import { Card } from "react-bootstrap";
 
 
-const PlayerCard = ({img, name, statistics, showImage}) => {
+const PlayerCard = ({img, name, statistics}) => {
+    const [showImage, setshowImage] = useState(true)
     console.log(showImage);
   return (
     <Card className="rounded-2 m-auto player-card">
