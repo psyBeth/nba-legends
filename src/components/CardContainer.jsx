@@ -5,6 +5,8 @@ import { Col } from "react-bootstrap/esm";
 import PlayerCard from "./PlayerCard";
 
 const CardContainer = () => {
+    console.log(data);
+    const showImage = true;
   return (
     <>
     <Form.Control 
@@ -21,7 +23,7 @@ const CardContainer = () => {
                             <Card.Title>{player.name}</Card.Title>
                         </Card.Footer>
                     </Card> */}
-                    <PlayerCard {...player} />
+                    <PlayerCard {...player} showImage={showImage} />
                 </Col>
                 ))}
             </Row>
